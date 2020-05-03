@@ -1,0 +1,44 @@
+1 . On the basis of number of operands 
+		- unary
+		- binary
+		- ternary
+2 . On the basis of operations
+	- arithmetic  + - * % /
+	- assignment  = 	
+	- realtional < > <= >= ++ != 
+	- conditional  ?:
+	- compound assignment  += -= *= /= %= <<= >>= &= |=
+	- logical && || !
+	- bitwise  & ^ |
+	- special  () [] * . ->
+
+	string forming operater #
+	string merging operator ##
+3 . Exclusive operators (not in c)
+	- scope resolution ::
+	- pointer to a member ::*  .*  ->*
+	- memory allocation new()
+	- memory deallocation delete()
+	- Run time type Info (RTTI) typeid()
+	- casting operators
+		- static cast
+		- dynamic cast
+		- const cast
+		- reinterpret cast
+Precedence  and  associativity
+
+1 . () [] * ->		>	
+2 . unary ~ ++ -- etc . <
+3 . * / %		>
+4 . + -			>	
+5 . << >>		>
+6 . < > <= >=		>
+7 . == !=		>
+8 . & 			>
+9 . ^			>
+10 . |			>
+11 . ||			>
+12 . &&			>
+13 . ? :		<
+14 . = += -= ....	>
+15 . , 			>
