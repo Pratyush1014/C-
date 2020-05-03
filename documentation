@@ -1,0 +1,12 @@
+Compilers :
+	In c++ the compiler is g++ .
+	For Compiling g++ filename.cpp .(For direct compilation)
+	Compilation Stages :
+	1 . Prepprocessing : converts source code to intermediate code 
+			cpp -o main.i main.c
+	2 . Compiling : converts intermediate code to assembly code 
+			g++ -S main.i
+	3 . Assembler : converts assembly code to object code 
+			as -o main.o main.s
+	4 . Linking and Loading : generation of machine code 
+			g++ -o main.out main.o
